@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: drl_microgrid_ems
+Version: 0.0.3
+Summary: Fork of  https://github.com/tahanakabi/DRL-for-microgrid-energy-management.git
+Author-email: Rupert Young <rupert@perceptualrobots.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+
+Fork of https://github.com/tahanakabi/DRL-for-microgrid-energy-management.git
+
+py -m build
+py -m twine upload dist/*

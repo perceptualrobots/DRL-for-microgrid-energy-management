@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drl_microgrid_ems"
+version = "0.0.3"
+authors = [
+  { name="Rupert Young", email="rupert@perceptualrobots.com" },
+]
+description = "Fork of  https://github.com/tahanakabi/DRL-for-microgrid-energy-management.git"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "tqdm",
+  "scikit-learn"
+]
