@@ -26,7 +26,7 @@ DEFAULT_NUM_TCLS = 100
 DEFAULT_NUM_LOADS = 150
 # Load up default prices and 
 # temperatures (from Taha's CSV)
-default_data = np.load(f'testfiles{sep}default_price_and_temperatures.npy')
+default_data = np.load(f'envfiles{sep}default_price_and_temperatures.npy')
 DEFAULT_PRICES = default_data[:,0]
 DEFAULT_TEMPERATURS = default_data[:,1]
 BASE_LOAD = np.array([2.0,2.0,2.0,2.0,3.4,4.0,6.0,5.5,6.0,5.5,4.0,3.3,4.1,3.3,4.1,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0])
@@ -142,8 +142,8 @@ class Battery:
 
 class Grid:
     def __init__(self):
-        down_reg_df=pd.read_csv(f'testfiles{sep}down_regulation.csv')
-        up_reg_df = pd.read_csv(f'testfiles{sep}up_regulation.csv')
+        down_reg_df=pd.read_csv(f'envfiles{sep}down_regulation.csv')
+        up_reg_df = pd.read_csv(f'envfiles{sep}up_regulation.csv')
         down_reg = np.array(down_reg_df.iloc[:,-1])/10
         up_reg = np.array(up_reg_df.iloc[:, -1])/10
         self.buy_prices = down_reg
@@ -168,7 +168,7 @@ class Grid:
 
 class Generation:
     def __init__(self, max_capacity):
-        power_df = pd.read_csv(f'testfiles{sep}wind_generation.csv')
+        power_df = pd.read_csv(f'envfiles{sep}wind_generation.csv')
         self.power = np.array(power_df.iloc[:,-1])
         self.max_capacity = np.max(self.power[:30])
 

@@ -1,1 +1,3 @@
 __pycache__/tcl_env_dqn.cpython-39.pyc
+*.npy
+
