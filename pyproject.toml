@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drl_microgrid_ems"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Rupert Young", email="rupert@perceptualrobots.com" },
 ]

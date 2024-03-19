@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: drl_microgrid_ems
-Version: 0.0.3
+Version: 0.0.4
 Summary: Fork of  https://github.com/tahanakabi/DRL-for-microgrid-energy-management.git
 Author-email: Rupert Young <rupert@perceptualrobots.com>
 Classifier: Programming Language :: Python :: 3
