@@ -1,6 +1,8 @@
 __pycache__/tcl_env_dqn.cpython-39.pyc
 *.npy
 
-dist/drl_microgrid_ems-0.0.4-py3-none-any.whl
-dist/drl_microgrid_ems-0.0.4.tar.gz
+dist/*.whl
+dist/*.tar.gz
 src/drl_microgrid_ems/__pycache__/tcl_env_dqn_1.cpython-39.pyc
+src/drl_microgrid_ems/__pycache__/__init__.cpython-39.pyc
+
