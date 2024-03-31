@@ -195,7 +195,7 @@ class Load:
 
 
 
-class MicroGridEnv(gym.Env):
+class MicroGridEnv0(gym.Env):
     def __init__(self, **kwargs):
         """
         Arguments:
@@ -581,7 +581,7 @@ if __name__ == '__main__':
     # Testing the environment
     from matplotlib import pyplot
     # Initialize the environment
-    env = MicroGridEnv()
+    env = MicroGridEnv0()
     env.seed(1)
     # Save the rewards in a list
     rewards = []
