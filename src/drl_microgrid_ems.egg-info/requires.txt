@@ -1,6 +1,6 @@
 tqdm
 scikit-learn
-numpy==1.19.5
+numpy==1.22.4
 tensorflow==2.4.1
 keras==2.4.3
-pandas==1.0.5
+pandas==1.1.0
