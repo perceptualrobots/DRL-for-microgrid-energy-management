@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drl_microgrid_ems"
-version = "0.0.9"
+version = "0.1.1"
 authors = [
   { name="Rupert Young", email="rupert@perceptualrobots.com" },
 ]
@@ -18,9 +18,5 @@ classifiers = [
 ]
 dependencies = [
   "tqdm",
-  "scikit-learn",
-  "numpy==1.22.4",
-  "tensorflow==2.4.1",
-  "keras==2.4.3",
-  "pandas==1.1.0"
+  "scikit-learn"
 ]
