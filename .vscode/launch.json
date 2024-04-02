@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "ac3++test",
             "type": "debugpy",
@@ -11,6 +12,15 @@
             "program": "src/drl_microgrid_ems/A3C_plusplus.py",
             "console": "integratedTerminal",
             "args": "--test"
+        },
+        {
+            "name": "ac3++train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/drl_microgrid_ems/A3C_plusplus.py",
+            "console": "integratedTerminal",
+            "args": "train"
         }
+
     ]
 }
