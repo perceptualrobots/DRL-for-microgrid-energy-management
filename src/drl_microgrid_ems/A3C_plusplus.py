@@ -21,7 +21,7 @@ from keras.callbacks import TensorBoard
 from keras.models import *
 from keras.layers import *
 from keras import backend as K
-from tcl_env_dqn_1 import MicroGridEnv
+from tcl_env_dqn_1 import * #MicroGridEnv
 #from drl_microgrid_ems.tcl_env_dqn_1 import *
 print("after import")
 import os
